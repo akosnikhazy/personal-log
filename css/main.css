@@ -1,0 +1,101 @@
+body,html{margin:0;padding:0;box-sizing: border-box;}
+
+html{
+	
+	background:#efefef
+
+}
+
+h1{
+	text-align:center;
+	
+}
+div{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#loginform{
+	width: 100px;
+	margin:0 auto;
+	text-align: center;
+	padding:20px;
+}
+
+#loginform input{
+	margin-bottom: 5px;
+}
+
+#newpost{
+	width: 500px;
+	margin: 0 auto;
+}
+#newpost textarea{
+	width:500px;
+	height: 200px;
+	margin-bottom: 5px;
+}
+#newpost label{
+	display: block;
+	margin: 5px;
+}
+.tags,#yearlist{
+	list-style: none;
+	width: 500px;
+	margin:0 auto;
+	text-align: center;
+}
+.tags li,#yearlist li{
+	display: inline-block;
+	padding:5px;
+	margin-right: 3px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+}
+.tags li:hover,#yearlist li:hover{
+	background: #666;
+}
+.tags li a,#yearlist li a{
+
+	text-decoration: none;
+	color: #666;
+}
+
+.tags li:hover a,#yearlist li:hover a{
+	color: #aaa;
+	
+}
+#postlist,#posts{
+	
+	padding: 5px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#postlist{
+	border-top: 2px solid #ccc;
+}
+#postlist article{
+
+	border: 1px solid #ccc;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+	padding: 4px;
+
+}
+
+article{
+	text-align: justify;
+	padding: 10px;
+	background: #fefefe;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+article > a:first-child{
+	display: inline-block;
+	border-bottom: 1px dotted #666;
+	font-size: 0.9em;
+	color: #444;
+}
