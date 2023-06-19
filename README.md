@@ -19,7 +19,7 @@ If you really want to use this thing, you should come up with your own salting a
 ```
 if($pwxsalt[0] == hash('sha256',$_POST['openthelogplease'] . $pwxsalt[1]))
 ```
-Also you might want to .htaccess deny the pw file, to be safe. Not that this should run on the WWW. But for a home network, as something running privately: its fine.
+Also you might want to .htaccess deny the pw file, to be safe. Not that this should run on the [WWW](https://en.wikipedia.org/wiki/World_Wide_Web). But for a home network, as something running privately: its fine.
 
 # How to use
 You post the things you want to log. You can tag the posts, tags,are,separated,by,commas. It will lowercase them and trim spaces. Tags are automatically indexed and counted. If you click on a tag, it will show you all the posts with that tag. You can also read a post by clicking on its date. You can use any html, you can break it like that.
