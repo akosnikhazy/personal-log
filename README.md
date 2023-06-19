@@ -13,7 +13,7 @@ The default password is `admin`. You can change this in the most annoying way: i
 ```
 // die(hash('sha256','admin' . '4b21bea153fb8dfe3fc53eb9b94cd463dc5cfcd8718bdc423a4f1afc6eacaaf3'));
 ```
-Just write your password instead of "admin" and a random salt. Run the script. Copy the salted password (the result of the hash function) and the salt (you wrote in the code) into the pw file, separated by x (warning: do not put x in the salt ;D).
+Just write your password instead of "admin" and a random salt. Run the script. Copy the salted password (the result of the hash function) and the salt (you wrote in the code) into the pw file, separated by x (warning: do not put x in the salt ;D). After this you should delete this line or get the password out of it.
 
 If you really want to use this thing, you should come up with your own salting algorithm instead of the example pw.salt you see in the code. Then you should change the following line too:
 ```
