@@ -24,5 +24,8 @@ Also you might want to .htaccess deny the pw file, to be safe. Not that this sho
 # How to use
 You post the things you want to log. You can tag the posts, tags,are,separated,by,commas. It will lowercase them and trim spaces. Tags are automatically indexed and counted. If you click on a tag, it will show you all the posts with that tag. You can also read a post by clicking on its date. You can use any html, you can break it like that.
 
+# Change button text and placholder
+Instead of editting the HTML template I put button and placeholder text in the text/index.json file. This is a very basic language support, might make it multi lang in the future.
+
 # Why
 Because I was bored. Really. You can build on it. Do whatever you want with it. It really is the result of 3 hours. You need a lot more than that to make it really good. And safe. And useful.
