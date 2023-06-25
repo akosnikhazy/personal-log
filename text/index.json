@@ -1,5 +1,11 @@
 {
 	"noposts":"There are no posts in this year",
 	"nopost":"No such post exists",
-	"dots":"...."
+	"dots":"....",
+	"clearbtn":"Clear",
+	"postitbtn":"Post it",
+	"searchbtn":"Search",
+	"textplaceholder":"Text Search",
+	"tagsplaceholder":"tags,seperated,by,comma"
+
 }

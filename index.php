@@ -66,13 +66,29 @@ $yearlistitem = new Template('yearlistitem');
 $post = new Template('post');
 
 $text	  = new Text('index');
-/* tag list */
 
+/* 
+ *	
+ * this way you can rename your buttons and placeholder in text/index.json 
+ * very basic language support be like.
+ * 
+ */
+$template -> tagList["clearbtn"] = $text -> PrintText("clearbtn");
+$template -> tagList["postbtn"] = $text -> PrintText("postitbtn");
+$template -> tagList["searchbtn"] = $text -> PrintText("searchbtn");
+$template -> tagList["textplaceholder"] = $text -> PrintText("textplaceholder");
+$template -> tagList["tagsplaceholder"] = $text -> PrintText("tagsplaceholder");
+
+
+
+/* tag list */
+$limit = 50;
 $template -> tagList['taglist'] = '';
 
 $sql = 'SELECT `tag`,`count` 
 		FROM `tags`
-		ORDER BY `count` DESC'; 
+		ORDER BY `count` DESC
+		LIMIT ' . $limit; 
 
 $res = $db -> query($sql);
 
@@ -136,6 +152,7 @@ while($obj = $res -> fetch_object())
 	$post -> tagList['text'] = $obj -> shorttext . $text -> PrintText('dots');
 
 	$tags = '';
+
 	foreach(explode(',',$obj -> tags) as $tag)
 	{
 

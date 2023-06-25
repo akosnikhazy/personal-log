@@ -15,6 +15,24 @@ div{
 	margin: 0 auto;
 }
 
+form{
+	padding: 5px;
+}
+
+article{
+	text-align: justify;
+	padding: 10px;
+	background: #fefefe;
+	max-width: 800px;
+	margin: 3px auto;
+}
+
+article > a:first-child{
+	display: inline-block;
+	border-bottom: 1px dotted #666;
+	font-size: 0.9em;
+	color: #444;
+}
 #loginform{
 	width: 100px;
 	margin:0 auto;
@@ -25,6 +43,29 @@ div{
 #loginform input{
 	margin-bottom: 5px;
 }
+
+#controls{
+	position: fixed;
+	right: 2px;
+	top: 2px;
+	width: 200px;
+	text-align: right;
+	padding: 20px;
+
+}
+
+
+#controls form{
+	margin-top: 10px;
+}
+
+#controls form input[type="submit"]{
+	border: 1px solid #666;
+	
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+}
+
 
 #newpost{
 	width: 500px;
@@ -56,7 +97,7 @@ div{
 .tags li:hover,#yearlist li:hover{
 	background: #666;
 }
-.tags li a,#yearlist li a{
+.tags li a,#yearlist li a, #controls a{
 
 	text-decoration: none;
 	color: #666;
@@ -83,19 +124,4 @@ div{
 	border-radius: 3px 3px 3px 3px;
 	padding: 4px;
 
-}
-
-article{
-	text-align: justify;
-	padding: 10px;
-	background: #fefefe;
-	max-width: 800px;
-	margin: 0 auto;
-}
-
-article > a:first-child{
-	display: inline-block;
-	border-bottom: 1px dotted #666;
-	font-size: 0.9em;
-	color: #444;
 }
