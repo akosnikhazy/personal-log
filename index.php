@@ -78,6 +78,7 @@ $template -> tagList["postbtn"] = $text -> PrintText("postitbtn");
 $template -> tagList["searchbtn"] = $text -> PrintText("searchbtn");
 $template -> tagList["textplaceholder"] = $text -> PrintText("textplaceholder");
 $template -> tagList["tagsplaceholder"] = $text -> PrintText("tagsplaceholder");
+$template -> tagList["iamout"] = $text -> PrintText("iamout");
 
 
 

@@ -6,6 +6,7 @@
 	"postitbtn":"Post it",
 	"searchbtn":"Search",
 	"textplaceholder":"Text Search",
-	"tagsplaceholder":"tags,seperated,by,comma"
+	"tagsplaceholder":"tags,seperated,by,comma",
+	"iamout":"I am out"
 
 }
