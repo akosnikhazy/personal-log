@@ -2,9 +2,9 @@
 /***********************
 	Nikházy Ákos
 
-index.php
+search.php
 
-you post here
+you search here
 ***********************/
 
 require 'require/musthave.php';
